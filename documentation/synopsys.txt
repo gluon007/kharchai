@@ -1,0 +1,416 @@
+1
+Kharch.AI: “AI Based Expense Tracking System”
+PROJECT SYNOPSIS
+OF
+MAJOR PROJECT
+[KCA - 451]
+MCA – II Year / IVth Semester
+MASTER OF COMPUTER APPLICATION
+SUBMITTED BY
+[GROUP NUMBER- 3]
+STUDENT NAME ROLL NUMBER
+1 Shrey Sharma 2301650140088
+2 Riya Sharma 2301650140073
+3 Kushal Mishra 2301650140040
+4 Vaibhav Mishra 2301650140103
+UNDER SUPERVISION OF
+[Mr. Ajeet Singh]
+Head of Computer Application Department
+KANPUR INSTITUTE OF TECHNOLOGY, KANPUR
+(DR. A.P.J ABDUL KALAM TECHNICAL UNIVERSITY, LUCKNOW)
+2
+DECLARATION
+We hereby declare that this submission of our own work and that, to the best of our knowledge
+and belief, it contains no material previously published or written by another person nor
+material which to a substantial extent has been accepted for the award of any other degree or
+diploma or the university or other institute of higher learning, except where due
+acknowledgement has been made in the text.
+Name: Shrey Sharma
+Roll no: 2301650140088
+Date:
+Signature:
+Name: Vaibhav Mishra
+Roll no: 2301650140103
+Date:
+Signature:
+Name: Riya Sharma
+Roll no: 2301650140073
+Date:
+Signature:
+Name: Kushal Mishra
+Roll no: 2301650140040
+Date:
+Signature:
+Approved By:
+Mr. AJEET SINGH
+Project Coordinator
+Head, Dept. of Computer Application
+Kanpur Institute Of Technology, Kanpur
+3
+Sr.No. Contents Page No
+1 Introduction 4
+2 Objectives 5
+3 A d v a n t a g e s 6
+4 Project Category 7
+5 Tools/ Platform 8
+6 Hardware & software requirements 9
+7 Feasibility Study 11
+8 Complete Structure 12
+9 Data Modeling (ER Structure) 14
+10 Modules of the Project 16
+11 Future Scope 17
+12 Conclusion 19
+13 Bibliography 20
+4
+KHARCH.AI
+“AI BASED Expense Tracking System”
+Introduction
+In today's fast-paced world, managing personal finances efficiently is more challenging than
+ever. Traditional methods of tracking expenses, often reliant on manual entry, can be timeconsuming and error-prone. To address these challenges, our project, Kharch.AI – AIPowered Expense Tracker, proposes an innovative solution that leverages artificial
+intelligence to automate expense management.
+Kharch.AI simplifies the process of recording daily transactions by allowing users to input
+expenses via voice or text. The system employs advanced AI techniques to extract key details
+such as the amount, item, date, and automatically categorize each expense. Furthermore, it
+provides insightful financial reports and personalized suggestions to help users optimize their
+spending and achieve their savings goals.
+By integrating intuitive user interfaces with intelligent backend processing, Kharch.AI aims to
+make financial management effortless and accessible for individuals, students, and small
+businesses alike. This project not only streamlines expense tracking but also empowers users
+with real-time insights and actionable recommendations, ultimately contributing to better
+financial decision-making.
+5
+Objective
+The primary objective of kharch.ai is to develop an AI-powered expense tracking system that
+simplifies personal finance management through automation and intelligent insights. The
+system aims to eliminate the need for manual expense entry and provide users with a seamless,
+interactive, and efficient way to track their spending.
+Key objectives of kharch.ai include:
+1. Automated Expense Entry – Enable users to input expenses through text or voice
+commands, reducing the effort required for manual logging.
+2. AI-Based Categorization – Automatically classify expenses into predefined categories
+(e.g., food, travel, entertainment) and create new categories when necessary.
+3. Real-Time Data Processing – Store and process expense data efficiently using a secure
+backend, ensuring quick retrieval and analysis.
+4. Financial Insights & Reports – Provide users with AI-driven financial reports,
+spending patterns, and personalized savings recommendations.
+5. Interactive AI Chatbot – Integrate an AI-powered chatbot that assists users with
+queries, spending tips, and financial management advice.
+6. User-Friendly Interface – Design an intuitive and visually appealing UI to ensure ease
+of use across different devices.
+7. Data Security & Privacy – Implement encryption and authentication mechanisms to
+protect user data.
+8. Multi-Platform Support – Develop the system to be accessible via web and mobile
+platforms for maximum usability.
+By achieving these objectives, kharch.ai aims to revolutionize expense tracking, making
+financial management smarter, faster, and more accessible.
+6
+ADVANTAGES
+kharch.ai offers several advantages that make expense tracking more efficient, intelligent, and
+user-friendly:
+1. Automated Expense Logging – Users can enter expenses using voice or text input,
+reducing manual effort and ensuring accurate tracking.
+2. AI-Based Categorization – The system automatically assigns expenses to appropriate
+categories and creates new ones if necessary, minimizing user intervention.
+3. Smart Financial Insights – Provides personalized recommendations, spending trends,
+and budget management tips based on user data.
+4. Time-Saving – Eliminates the need for manual entry and categorization, saving users
+significant time in managing their finances.
+5. Interactive AI Chatbot – Offers instant responses to queries, financial advice, and
+spending alerts, making the app more engaging and helpful.
+6. Multi-Platform Accessibility – Available on both mobile and web platforms, allowing
+users to access their expense data anytime, anywhere.
+7. Data Security & Privacy – Ensures secure storage and encryption of user data,
+maintaining confidentiality and preventing unauthorized access.
+8. Custom Reports & Analytics – Generates insightful reports and graphical
+representations of spending patterns, helping users make informed financial decisions.
+9. Personalized User Experience – AI adapts to user preferences, offering a more
+customized and intuitive experience over time.
+10. Better Financial Management – Encourages disciplined spending habits, helping
+users stay within their budget and plan expenses effectively.
+With these advantages, kharch.ai enhances financial awareness and empowers users to take
+better control of their expenses with minimal effort.
+7
+PROJECT CATEGORY
+AI Based Expense Tracking System
+The kharch.ai application falls under the category of Artificial Intelligence (AI)-Powered
+Financial Management System. It combines the fields of:
+1. Artificial Intelligence & Machine Learning – AI is used for automatic expense
+categorization, pattern recognition, and personalized financial insights.
+2. Financial Technology (FinTech) – The application focuses on smart expense tracking,
+budget management, and financial analytics to enhance personal finance management.
+3. Web and Mobile Application Development – The project involves developing a
+cross-platform application that can be accessed via web and mobile interfaces for user
+convenience.
+4. Natural Language Processing (NLP) – Enables users to input expenses using natural
+language (voice or text), making the experience more interactive and intuitive.
+5. Database Management System (DBMS) – Efficient storage and retrieval of user
+expenses, categories, and analytics reports using structured database management
+techniques.
+6. Cloud Computing – The system may leverage cloud services for data storage, AI
+model training, and accessibility across multiple devices.
+Since the project integrates AI, FinTech, and modern application development, it represents a
+smart expense-tracking system that enhances user financial awareness and budgeting habits.
+8
+Tools/Platform
+1. Programming Languages:
+• Python: Used for backend development.
+• Dart: Used for frontend development with Flutter.
+2. Frontend Development:
+• Flutter: A cross-platform UI toolkit for building the mobile application.
+• Material UI / Cupertino UI: To provide a seamless and attractive UI experience.
+3. Backend Development:
+• Flask: A lightweight Python web framework for API development.
+• FastAPI (Optional): If needed for better async support and performance.
+4. Database Management:
+• MySQL: A relational database to store user expenses and categories.
+• Firebase Firestore (Alternative): A NoSQL database for cloud-based data storage.
+5. AI & NLP Integration (Using Pre-Built Models):
+• Google Cloud NLP / OpenAI API: For Natural Language Processing (NLP) to understand
+expense entries.
+• Speech-to-Text API (Google / Azure / IBM Watson): For processing voice input of expenses.
+6. Cloud & Hosting Services:
+• Google Cloud / AWS / Firebase: For database and API hosting.
+• Heroku / Render: For hosting backend services.
+7. Development & Testing Tools:
+• Git & GitHub: Version control and collaboration.
+• Postman: API testing and debugging.
+• Jupyter Notebook (For API Testing): To test NLP and Speech-to-Text integration.
+8. Design & Documentation:
+• Draw.io / StarUML: For system design diagrams (ER, DFD, Class Diagrams).
+• Google Docs / LaTeX: For project documentation and synopsis writing.
+9
+Hardware/Software Requirements
+1. Hardware Requirements
+For Development:
+• Processor: Intel i5 or AMD Ryzen 5 (or higher)
+• RAM: Minimum 8GB (16GB recommended for smooth multitasking)
+• Storage: Minimum 256GB SSD (512GB SSD recommended)
+• Graphics Card: Integrated GPU is sufficient, but a dedicated GPU can enhance performance
+for AI processing
+• Internet Connection: Required for API integrations, cloud services, and version control
+For End Users (Mobile Application):
+• Device: Android smartphone (Android 8.0 and above) or iPhone (iOS 12 and above)
+• RAM: Minimum 3GB (Recommended: 4GB or higher)
+• Storage: 100MB free space for installation
+• Microphone: Required for voice input feature
+2. Software Requirements
+For Development:
+• Operating System: Windows 10/11, macOS, or Linux
+• Code Editor:
+o VS Code (Recommended)
+o PyCharm (for Python backend)
+o Android Studio (for Flutter frontend)
+• Backend Framework: Flask (Python)
+• Frontend Framework: Flutter (Dart)
+• Database Management System: MySQL / Firebase Firestore
+• Cloud Services (Optional): Google Cloud / AWS / Firebase
+• Version Control: Git & GitHub
+• Testing Tools: Postman (for API testing), Jupyter Notebook (for AI API testing)
+For End Users:
+• Mobile Application: Kharch.ai (to be installed from Play Store / App Store)
+• Internet Connection: Required for syncing data with the cloud and AI-based expense
+categorization.
+10
+Software Requirement Specifications
+Functional Requirements (FR)
+ID Requirement Description
+FR1 User Authentication Users can register, log in, and manage accounts.
+FR2 Voice Expense Input Users can add expenses by speaking.
+FR3 Text Expense Input Users can manually enter expenses.
+FR4 AI-Based Categorization AI assigns expenses to predefined or new categories.
+FR5 Dynamic Category
+Creation AI creates new categories if necessary.
+FR6 AI-Based Financial Tips The system provides personalized savings tips based on
+spending patterns.
+FR7 AI Chatbot for Assistance Users can interact with a chatbot for financial guidance &
+queries.
+FR8 Expense Editing Users can modify past expenses.
+FR9 Report Generation The system provides analytics & reports.
+2.2 Non-Functional Requirements (NFR)
+ID Requirement Description
+NFR1 Performance Process voice input as fast as it can.
+NFR2 Security Use better encryption for data storage.
+NFR3 Scalability Support multiple users concurrently.
+NFR4 Availability Ensure available uptime with cloud hosting.
+NFR5 AI Accuracy AI must achieve 85%+ accuracy in categorization.
+11
+Feasibility Study
+1. Technical Feasibility
+• Tech Stack: Flutter (Frontend), FastAPI + PostgreSQL (Backend), AI with Python
+(ML/NLP)
+• AI Features: Smart spending insights, chatbot for financial advice, expense
+categorization
+• Cloud Hosting: AWS / Firebase / Railway (Scalable & Secure)
+• Challenges: Training an accurate AI model for personalized expense analysis ,
+Ensuring data security & compliance (GDPR, PCI-DSS)
+2. Economic Feasibility
+• Revenue Model: Freemium Model (Basic free, premium AI insights) / Subscriptionbased (₹99-₹499/month) /Affiliate partnerships (banks, fintech apps)
+• ROI (Return on Investment): Break-even in 6-12 months with good user adoption
+3. Market Feasibility
+• Target Audience: Students, working professionals, freelancers, small business owners
+• Competitors: Walnut, Goodbudget, Spendee (Expenzo differentiates with AI +
+Chatbot)
+• Unique Selling Points (USP): AI-driven analysis, Interactive chatbot, Multi-platform
+accessibility
+4. Operational Feasibility
+• Solo or small team can build MVP in 3-4 months
+• Marketing via social media, student networks, and fintech collaborations
+• Customer Support: Telegram/WhatsApp group, FAQs, chatbot assistance
+5. Legal & Ethical Feasibility
+• Compliance with data privacy laws (GDPR, Indian IT Act 2000)
+• Secure authentication (OAuth, Firebase Auth, JWT)
+12
+Complete Structure of the Kharch.AI
+1. Use Case Diagram:
+2. Class Diagram:
+13
+3. Data Flow Diagram:
+Level zero:
+Level 1:
+14
+Level 2:
+4. ER Structure:
+Entities & Attributes
+1. User (User_ID is PK)
+• Name
+• Email
+• Password
+• Currency Preference
+• Budget Limit
+2. Expense (Expense_ID is PK, User_ID is FK, Category_ID is FK)
+• Amount
+• Date
+• Description
+• Payment Method
+3. Category (Category_ID is PK, User_ID is FK for custom categories)
+• Name
+15
+4. AI Model (AI_ID is PK)
+• Algorithm Used
+• Last Training Date
+• Accuracy Rate
+5. Report (Report_ID is PK, User_ID is FK)
+• Month/Year
+• Total Expenses
+• Savings
+• AI Insights
+6. Suggestion (Suggestion_ID is PK, User_ID is FK, Expense_ID is FK [optional])
+• Suggestion Text
+• Date
+Relationships & Cardinalities
+1. User → Expense (1:M)
+• A user can have multiple expenses, but an expense belongs to only one user.
+2. Expense → Category (M:1)
+• An expense belongs to one category, but a category can have multiple expenses.
+3. User → Category (1:M for custom categories)
+• If users can create custom categories, each user can create many categories, but a
+category belongs to one user.
+4. AI Model → Category (1:M)
+• AI Model predicts and assigns categories.
+5. User → Report (1:M)
+• A user receives multiple reports over time.
+6. Report → Suggestion (1:M)
+• A report can generate multiple suggestions.
+7. Expense → Suggestion (M:1 [optional])
+16
+MODULES OF THE PROJECT
+1. User Authentication & Profile Management
+• User registration and login (Google/Facebook authentication)
+• Secure session management
+2. Expense Logging
+• Manual text input for expenses
+• Voice-based expense entry
+3. AI-based Expense Categorization
+• AI automatically assigns categories to expenses
+• Creation of new categories if needed
+4. Expense Dashboard & Reports
+• Monthly, weekly, and daily expense summaries
+• Visual charts and graphs
+5. Budget Management
+• Users can set spending limits
+• Alerts and notifications for overspending
+6. Data Backup & Security
+• Cloud-based storage for backup and synchronization
+• Secure encryption for user data
+7. AI-based Financial Insights
+• AI-driven suggestions on savings and budgeting
+• Expense trend analysis
+17
+FUTURE SCOPE
+Kharch.ai is designed to be an intelligent expense management system with AI-powered
+insights. As technology advances and user needs evolve, the application has the potential to
+expand in various ways. The following are key areas for future improvements and
+developments:
+1. Advanced AI-Powered Financial Analysis
+• Enhancing AI algorithms to provide deeper insights into spending habits and predict future
+expenses based on user behavior.
+• Implementing machine learning models to offer personalized saving plans based on income,
+expenses, and financial goals.
+2. Automated Expense Tracking & Integration
+• Bank and UPI Integration: Automatically fetch and categorize transactions by linking with
+bank accounts, UPI, and digital wallets.
+• Receipt Scanning & OCR: Implement Optical Character Recognition (OCR) to extract data
+from uploaded bills and receipts.
+3. Multi-User & Family Budgeting System
+• Introduce a shared budgeting feature where families or business teams can manage and track
+expenses together.
+• Assign different access levels for admins and members for better control over group finances.
+4. Smart Financial Assistant
+• Develop a voice-enabled chatbot to assist users in managing their expenses, providing
+spending alerts, and answering financial queries.
+• Implement AI-powered reminders for bill payments, investment opportunities, and budget
+adjustments.
+5. Cross-Platform Availability
+• Expanding Kharch.ai to iOS, Web, and Desktop applications to enhance accessibility.
+• Implementing progressive web apps (PWA) to allow offline expense tracking.
+6. Investment & Financial Planning Integration
+• Provide investment recommendations based on expense patterns and savings.
+• Enable users to set and track financial goals such as home loans, car loans, or travel savings.
+18
+7. Global Expansion & Multi-Currency Support
+• Supporting multiple currencies and providing localized financial insights for users in different
+countries.
+• Implementing currency exchange rate tracking for travelers and international users.
+8. Blockchain-Based Security & Transparency
+• Implement blockchain technology for secure and transparent financial transactions.
+• Enable smart contractsfor automated financial agreements and secure expense-sharing among
+users.
+9. Integration with Government & Tax Systems
+• Providing automated tax calculation and GST invoice generation for freelancers and
+businesses.
+• Helping users track tax-deductible expenses and generate reports for easy tax filing.
+10. Subscription-Based Premium Features
+• Introduce a freemium model with advanced financial analytics, investment tracking, and
+premium support for paid users.
+• Offer custom financial consultation services for users seeking expert advice on expense
+management.
+19
+Conclusion
+Kharch.ai is an innovative AI-powered expense tracking and management application designed
+to simplify financial planning and provide intelligent insights into users' spending habits. By
+leveraging artificial intelligence, automation, and a user-friendly interface, Kharch.ai offers a
+seamless experience for individuals looking to manage their expenses efficiently.
+In the current digital age, financial awareness and expense management have become essential
+for individuals, families, and businesses. Traditional methods of tracking expenses, such as
+manual bookkeeping or basic spreadsheets, are time-consuming and prone to human errors.
+Kharch.ai addresses these challenges by introducing AI-driven automation, categorization, and
+personalized financial recommendations, making expense management effortless and
+insightful.
+One of the key highlights of Kharch.ai is its AI-based expense categorization and smart
+suggestions, which help users gain a clear understanding of their financial habits. The
+integration of voice-based input, AI-powered reports, and automated insights ensures that
+users can track their finances with minimal effort. Furthermore, features such as budget
+setting, savings analysis, and AI-driven financial planning enhance the overall experience
+and empower users to make informed financial decisions.
+As financial technologies evolve, Kharch.ai has a promising future with potential
+enhancements, such as bank and UPI integration, investment tracking, multi-user family
+budgeting, and blockchain-based security. The incorporation of tax calculations,
+personalized financial consultations, and global multi-currency support further positions
+Kharch.ai as a future-ready financial assistant.
+By continuously improving its capabilities and adapting to modern financial needs, Kharch.ai
+aspires to become a comprehensive financial management tool for users worldwide. Whether
+an individual looking to control daily expenses or a small business managing financial
+transactions, Kharch.ai serves as an intelligent and reliable assistant.
+With its AI-driven automation, smart suggestions, and seamless user experience, Kharch.ai
+is set to revolutionize personal finance management, making it easier and more efficient for
+users to take charge of their financial well-being.
